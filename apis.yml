@@ -1,8 +1,19 @@
 aid: zeroavia
 name: ZeroAvia
-description: 'ZeroAvia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ZeroAvia is a UK/US hydrogen-electric aviation company founded in 2017
+  by Valery Miftakhov, developing hydrogen fuel cell and electric propulsion systems
+  for commercial aircraft. Its powertrain line runs from the ZA600 (600kW, 10-20 seat
+  regional turboprops) through the ZA2000 (2-5MW, 40-80 seat turboprops) to the ZA2000
+  RJ (5MW+, up to 90 seat regional jets), alongside a component business selling electric
+  propulsion systems, inverters, electric motors and HTPEM/SuperStack fuel cell stacks
+  to other clean-aviation manufacturers, plus a hydrogen airport refuelling ecosystem
+  of electrolyzers, mobile refuelers and LH2 development. It operates from Cotswold
+  Airport in Kemble, UK and from Everett, Washington, and holds FAA and CAA experimental
+  certificates for its flight-test aircraft. ZeroAvia sells certified aerospace hardware
+  to airframers, airlines, lessors and defense customers; it publishes no public developer
+  API, SDK or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/zeroavia/refs/heads/main/apis.yml
+image: https://zeroavia.com/wp-content/themes/zero-avia5/images/zeroavia-logo.svg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Aviation
+- Aerospace
+- Hydrogen
+- Fuel Cells
+- Electric Propulsion
+- Clean Energy
+- Manufacturing
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,53 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zeroavia-domain-security.yml
+- type: LLMsTxt
+  url: llms/zeroavia-llms.txt
 - type: Website
+  url: https://zeroavia.com/
+- type: Blog
+  url: https://zeroavia.com/newsroom/
+- type: BlogRSS
+  url: https://zeroavia.com/feed/
+- type: Support
+  url: https://zeroavia.com/contact/
+- type: FAQ
+  url: https://zeroavia.com/faq/
+- type: TermsOfService
+  url: https://zeroavia.com/tc/
+- type: PrivacyPolicy
+  url: https://zeroavia.com/zeroavia-general-privacy-notice/
+- type: Careers
+  url: https://careers.zeroavia.com/
+- type: MediaKit
+  url: https://zeroavia.com/media-kit/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/zeroavia
+- type: SecondaryMarket
   url: https://forgeglobal.com/zeroavia_stock/
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: ZeroAvia sells certified hydrogen-electric aerospace hardware — powertrains,
+    fuel cell stacks and airport refuelling equipment — and its WordPress page sitemap
+    lists no developer, docs or API page at all; api., docs., developer. and developers.zeroavia.com
+    do not resolve in DNS, and there is no ZeroAvia GitHub organization.
+  evidence:
+  - url: https://zeroavia.com/openapi.json
+    status: 404
+  - url: https://zeroavia.com/.well-known/agent-card.json
+    status: 404
+  - url: https://zeroavia.com/llms.txt
+    status: 404
+  - url: https://zeroavia.com/page-sitemap.xml
+    status: 200
+  - url: https://api.github.com/orgs/zeroavia
+    status: 404
+  checked: '2026-08-05'

@@ -1,0 +1,68 @@
+# ZeroAvia
+
+> ZeroAvia is a UK/US hydrogen-electric aviation company developing hydrogen fuel cell and electric
+> propulsion systems for commercial aircraft — the ZA600, ZA2000 and ZA2000 RJ powertrains, an
+> electric-aviation component line, and a hydrogen airport refuelling ecosystem. ZeroAvia sells
+> certified aerospace hardware to airframers, airlines, lessors and defense customers.
+
+<!--
+generated: '2026-08-05'
+method: generated
+source: apis.yml + zeroavia.com (probed 2026-08-05)
+-->
+
+## API surface
+
+ZeroAvia publishes **no public developer API, SDK, developer portal or machine-readable
+specification**. Probed on 2026-08-05: `zeroavia.com/openapi.json`, `/swagger.json`, `/api-docs`,
+`/llms.txt` and the full `/.well-known/` discovery set all returned 404; `api.zeroavia.com`,
+`docs.zeroavia.com`, `developer.zeroavia.com` and `developers.zeroavia.com` do not resolve; there is
+no ZeroAvia GitHub organization and no first-party package on npm or PyPI. The company's page
+sitemap contains no developer, docs or API pages. Do not attempt to call a ZeroAvia API.
+
+## Products
+
+- [Products & Services](https://zeroavia.com/products-services/): Full product line
+- [ZA600](https://zeroavia.com/za600/): 600kW hydrogen-electric powertrain for 10-20 seat regional turboprops
+- [ZA2000](https://zeroavia.com/za2000/): 2-5MW modular hydrogen-electric powertrain for 40-80 seat regional turboprops
+- [Powertrains](https://zeroavia.com/powertrains/): Hydrogen-electric powertrain overview
+- [Electric Propulsion System](https://zeroavia.com/electric-propulsion-system/): Component-level electric propulsion offering
+- [SuperStack Flex](https://zeroavia.com/superstack-flex/): HTPEM fuel cell stack product
+- [Airports](https://zeroavia.com/airports/): Hydrogen airport refuelling ecosystem
+
+## Markets
+
+- [Markets](https://zeroavia.com/markets/): Market overview
+- [Airframe Manufacturers](https://zeroavia.com/airframe-manufacturers/)
+- [Aircraft Lessors](https://zeroavia.com/aircraft-lessors/)
+- [Defense](https://zeroavia.com/defense/)
+- [UAV](https://zeroavia.com/uav/)
+- [Transport Aircraft](https://zeroavia.com/transport-aircraft/)
+
+## Company
+
+- [About](https://zeroavia.com/about-us/): Founded 2017 by Valery Miftakhov; Kemble (UK) and Everett, WA (US)
+- [ZeroAvia Facts](https://zeroavia.com/zeroavia-facts/)
+- [Our Tech](https://zeroavia.com/our-tech/)
+- [Hydrogen 101](https://zeroavia.com/hydrogen-101/)
+- [FAQ](https://zeroavia.com/faq/)
+- [Contact](https://zeroavia.com/contact/)
+- [Careers](https://careers.zeroavia.com/)
+
+## News and resources
+
+- [Newsroom](https://zeroavia.com/newsroom/)
+- [RSS feed](https://zeroavia.com/feed/)
+- [Media Kit](https://zeroavia.com/media-kit/)
+- [Resources & downloads](https://zeroavia.com/resources-download/): Datasheets, brochures, white papers (PDF, gated by form)
+- [ZeroAvia in Media](https://zeroavia.com/zeroavia-in-media/)
+
+## Legal
+
+- [Terms & Conditions](https://zeroavia.com/tc/)
+- [Privacy Notice](https://zeroavia.com/zeroavia-general-privacy-notice/)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/zeroavia/refs/heads/main/apis.yml): Machine-readable company profile
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/zeroavia/refs/heads/main/security/zeroavia-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
