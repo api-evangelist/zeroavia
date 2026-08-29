@@ -13,6 +13,17 @@ description: 'ZeroAvia is a UK/US hydrogen-electric aviation company founded in 
   to airframers, airlines, lessors and defense customers; it publishes no public developer
   API, SDK or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/zeroavia/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://zeroavia.com/wp-content/themes/zero-avia5/images/zeroavia-logo.svg
 x-type: company
 x-source: harvest:secondary-market
